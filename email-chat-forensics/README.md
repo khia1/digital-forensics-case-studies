@@ -2,10 +2,11 @@
 
 ## Dataset Notice
 
-All artifacts examined in this investigation originate from a controlled forensic dataset designed to simulate real digital communication environments.  
-No private or personal user data is included in this case study.
+The artifacts analyzed in this case study originate from a controlled forensic dataset designed to simulate real-world communication environments.
 
-The purpose of this investigation is to demonstrate digital forensic analysis techniques and investigative methodology.
+No personal or private user data is included.
+
+The analysis and documentation presented here reflect the author’s independent investigation of the dataset.
 
 ---
 
