@@ -1,24 +1,83 @@
-# Email and Chat Log Forensics Investigation
+# Email and Chat Log Forensic Investigation
 
-## Scenario
-An investigation was conducted to analyze email headers and chat logs in order to determine whether suspicious communications occurred within the organization.
+## Case Overview
 
-## Tools Used
-Paraben E3
-Email header analysis tools
-Forensic log analysis
+This investigation analyzed communication artifacts extracted from email systems and messaging platforms to identify suspicious interactions between individuals.
 
-## Investigation Process
-1. Extracted email messages and chat logs from forensic images.
-2. Analyzed email headers to trace originating IP addresses.
-3. Examined timestamps and communication patterns.
-4. Identified suspicious exchanges between users.
+The forensic analysis was conducted using the Paraben E3 forensic platform to examine email databases and chat logs.
+
+## Evidence Sources
+
+The investigation included analysis of multiple communication systems:
+
+- Email headers
+- Outlook email database
+- Thunderbird email database
+- Slack workspace database
+- Discord chat records
+
+These sources allowed investigators to reconstruct communication patterns between users.
+
+## Investigation Steps
+
+### 1. Email Header Analysis
+
+Email metadata was examined to identify the sender infrastructure and message routing.
+
+Key artifact discovered:
+
+Sender email: a.harknes.2021@protonmail.com  
+Mail server: mail-40132.protonmail.ch  
+Mail server IP: 185.70.40.132
+
+### 2. Outlook Database Examination
+
+The Outlook email database was analyzed to locate communication threads and attachments related to the investigation.
+
+Evidence included:
+
+- emails referencing internal coordination
+- attachments stored within the database
+- timestamps showing communication sequences
+
+### 3. Slack Workspace Investigation
+
+Slack database artifacts were examined to identify:
+
+- workspace members
+- available channels
+- internal communication logs
+
+Chat records revealed collaboration between users across multiple channels.
+
+### 4. Thunderbird Email Database Analysis
+
+A Thunderbird email archive was imported into the forensic platform to locate messages associated with the investigation.
+
+Header analysis allowed identification of sender infrastructure and message timestamps.
+
+### 5. Discord Chat Investigation
+
+Discord databases were analyzed to reconstruct user communication.
+
+Artifacts examined included:
+
+- friend lists
+- private message conversations
+- message timestamps
+
+These records helped identify communication between Beverly Gates and Lena Goodwin.
 
 ## Key Findings
-Analysis revealed communication patterns and metadata linking specific users to suspicious activity. Email header tracing allowed investigators to determine the likely origin of the messages and reconstruct the communication timeline.
+
+Communication artifacts across multiple platforms revealed coordinated discussions between several individuals.
+
+Correlation of email metadata and chat logs allowed reconstruction of communication timelines and identification of key participants.
 
 ## Skills Demonstrated
-Digital evidence analysis  
-Email header investigation  
-Communication timeline reconstruction  
-Forensic artifact interpretation
+
+Digital forensic investigation  
+Email header analysis  
+Chat log analysis  
+Artifact extraction from databases  
+Communication timeline reconstruction
